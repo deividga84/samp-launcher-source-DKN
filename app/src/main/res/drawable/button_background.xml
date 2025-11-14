@@ -1,0 +1,8 @@
+<!-- res/drawable/button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#4DDF2C" /> <!-- Cor do botão (verde neon) -->
+
+    <corners android:radius="3dp" /> <!-- Cantos mais arredondados -->
+</shape>

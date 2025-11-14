@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="82.0dip" android:width="100.0dip" android:viewportWidth="100.0" android:viewportHeight="82.0">
+	<path android:fillColor="@drawable/hud_btn_bg__0" android:pathData="M10.26,39.57C12.32,30.12 13.85,23.11 15.71,17.78C17.56,12.47 19.71,8.92 22.94,6.31C26.18,3.71 30.1,2.36 35.68,1.68C41.29,1 48.46,1 58.14,1H98.76L89.74,42.43C87.68,51.88 86.15,58.89 84.29,64.22C82.44,69.53 80.29,73.08 77.06,75.69C73.82,78.29 69.9,79.64 64.32,80.32C58.71,81 51.54,81 41.86,81H1.24L10.26,39.57Z" android:strokeWidth="2.0" android:strokeAlpha="0.6" android:fillAlpha="0.25"/>
+</vector>

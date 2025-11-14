@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995195988549",
+    "project_id": "ilha-bela-roleplay",
+    "storage_bucket": "ilha-bela-roleplay.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995195988549:android:013bc87c56befe3bb3512c",
+        "android_client_info": {
+          "package_name": "com.sampmobile.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqaGskcWu8sKSCONwmHqrDbjKCXK6snr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_90sdp">
+
+    <ImageView
+        android:id="@+id/faq_main"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_50sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_faq_item_bg" />
+
+    <TextView
+        android:id="@+id/faq_text"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:text="TextView"
+        android:gravity="center"
+        android:fontFamily="@font/montsserat_semibold"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/faq_main"
+        app:layout_constraintEnd_toEndOf="@+id/faq_main"
+        app:layout_constraintStart_toStartOf="@+id/faq_main"
+        app:layout_constraintTop_toTopOf="@+id/faq_main" />
+</androidx.constraintlayout.widget.ConstraintLayout>

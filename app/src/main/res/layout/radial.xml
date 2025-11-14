@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/radial"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:clickable="true">
+
+	<ImageView
+		android:id="@+id/imageView7"
+		android:layout_width="@dimen/_236sdp"
+		android:layout_height="@dimen/_236sdp"
+		android:scaleType="fitXY"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@drawable/ic_radial_bg" />
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_close"
+		android:layout_width="@dimen/_92sdp"
+		android:layout_height="@dimen/_92sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7">
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<TextView
+				android:id="@+id/textView12"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="@dimen/_4sdp"
+				android:fontFamily="@font/roboto_regular"
+				android:text="Fechar"
+				android:textColor="#ffffffff"
+				android:textSize="@dimen/_8sdp"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintStart_toEndOf="@+id/imageView31"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageView
+				android:id="@+id/imageView31"
+				android:layout_width="@dimen/_24sdp"
+				android:layout_height="@dimen/_24sdp"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				app:srcCompat="@drawable/ic_radial_close" />
+		</androidx.constraintlayout.widget.ConstraintLayout>
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_button_00"
+		android:layout_width="@dimen/_44sdp"
+		android:layout_height="@dimen/_47sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintHorizontal_bias="0.504"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7"
+		app:layout_constraintVertical_bias="0.01">
+
+		<ImageView
+			android:id="@+id/radial_image_00"
+			android:layout_width="@dimen/_24sdp"
+			android:layout_height="@dimen/_24sdp"
+			android:paddingTop="@dimen/_2sdp"
+			android:paddingBottom="@dimen/_2sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.35"
+			app:srcCompat="@drawable/ic_radial_icon_25" />
+
+		<TextView
+			android:id="@+id/radial_text_00"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_regular"
+			android:text="Celular"
+			android:textAlignment="center"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_5sdp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/radial_image_00" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_button_01"
+		android:layout_width="@dimen/_44sdp"
+		android:layout_height="@dimen/_47sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintHorizontal_bias="0.78"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7"
+		app:layout_constraintVertical_bias="0.09">
+
+		<ImageView
+			android:id="@+id/radial_image_01"
+			android:layout_width="@dimen/_24sdp"
+			android:layout_height="@dimen/_24sdp"
+			android:paddingTop="@dimen/_2sdp"
+			android:paddingBottom="@dimen/_2sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.35"
+			app:srcCompat="@drawable/ic_radial_icon_29" />
+
+		<TextView
+			android:id="@+id/radial_text_01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_regular"
+			android:text="Gps"
+			android:textAlignment="center"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_5sdp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/radial_image_01" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_button_02"
+		android:layout_width="@dimen/_44sdp"
+		android:layout_height="@dimen/_47sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintHorizontal_bias="0.96"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7"
+		app:layout_constraintVertical_bias="0.34">
+
+		<ImageView
+			android:id="@+id/radial_image_02"
+			android:layout_width="@dimen/_24sdp"
+			android:layout_height="@dimen/_24sdp"
+			android:paddingTop="@dimen/_2sdp"
+			android:paddingBottom="@dimen/_2sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.35"
+			app:srcCompat="@drawable/ic_radial_icon_11" />
+
+		<TextView
+			android:id="@+id/radial_text_02"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_regular"
+			android:text="Mochila"
+			android:textAlignment="center"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_5sdp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/radial_image_02" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_button_03"
+		android:layout_width="@dimen/_44sdp"
+		android:layout_height="@dimen/_47sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintHorizontal_bias="0.96"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7"
+		app:layout_constraintVertical_bias="0.63">
+
+		<ImageView
+			android:id="@+id/radial_image_03"
+			android:layout_width="@dimen/_24sdp"
+			android:layout_height="@dimen/_24sdp"
+			android:paddingTop="@dimen/_2sdp"
+			android:paddingBottom="@dimen/_2sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.35"
+			app:srcCompat="@drawable/ic_radial_icon_37" />
+
+		<TextView
+			android:id="@+id/radial_text_03"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_regular"
+			android:text="Tab"
+			android:textAlignment="center"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_5sdp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/radial_image_03" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_button_04"
+		android:layout_width="@dimen/_44sdp"
+		android:layout_height="@dimen/_47sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintHorizontal_bias="0.78"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7"
+		app:layout_constraintVertical_bias="0.88">
+
+		<ImageView
+			android:id="@+id/radial_image_04"
+			android:layout_width="@dimen/_24sdp"
+			android:layout_height="@dimen/_24sdp"
+			android:paddingTop="@dimen/_2sdp"
+			android:paddingBottom="@dimen/_2sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.35"
+			app:srcCompat="@drawable/ic_radial_icon_08" />
+
+		<TextView
+			android:id="@+id/radial_text_04"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_regular"
+			android:text="Propriedades"
+			android:textAlignment="center"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_5sdp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/radial_image_04" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_button_05"
+		android:layout_width="@dimen/_44sdp"
+		android:layout_height="@dimen/_47sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintHorizontal_bias="0.504"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7"
+		app:layout_constraintVertical_bias="0.97">
+
+		<ImageView
+			android:id="@+id/radial_image_05"
+			android:layout_width="@dimen/_24sdp"
+			android:layout_height="@dimen/_24sdp"
+			android:paddingTop="@dimen/_2sdp"
+			android:paddingBottom="@dimen/_2sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.35"
+			app:srcCompat="@drawable/ic_radial_icon_42" />
+
+		<TextView
+			android:id="@+id/radial_text_05"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_regular"
+			android:text="Missoes"
+			android:textAlignment="center"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_5sdp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/radial_image_05" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_button_06"
+		android:layout_width="@dimen/_44sdp"
+		android:layout_height="@dimen/_47sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintHorizontal_bias="0.22"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7"
+		app:layout_constraintVertical_bias="0.88">
+
+		<ImageView
+			android:id="@+id/radial_image_06"
+			android:layout_width="@dimen/_24sdp"
+			android:layout_height="@dimen/_24sdp"
+			android:paddingTop="@dimen/_2sdp"
+			android:paddingBottom="@dimen/_2sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.35"
+			app:srcCompat="@drawable/ic_radial_icon_07" />
+
+		<TextView
+			android:id="@+id/radial_text_06"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_regular"
+			android:text="Loja Vip"
+			android:textAlignment="center"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_5sdp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/radial_image_06" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_button_07"
+		android:layout_width="@dimen/_44sdp"
+		android:layout_height="@dimen/_47sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintHorizontal_bias="0.04"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7"
+		app:layout_constraintVertical_bias="0.63">
+
+		<ImageView
+			android:id="@+id/radial_image_07"
+			android:layout_width="@dimen/_24sdp"
+			android:layout_height="@dimen/_24sdp"
+			android:paddingTop="@dimen/_2sdp"
+			android:paddingBottom="@dimen/_2sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.35"
+			app:srcCompat="@drawable/ic_radial_icon_06" />
+
+		<TextView
+			android:id="@+id/radial_text_07"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_regular"
+			android:text="Atendimento"
+			android:textAlignment="center"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_5sdp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/radial_image_07" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_button_08"
+		android:layout_width="@dimen/_44sdp"
+		android:layout_height="@dimen/_47sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintHorizontal_bias="0.04"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7"
+		app:layout_constraintVertical_bias="0.34">
+
+		<ImageView
+			android:id="@+id/radial_image_08"
+			android:layout_width="@dimen/_24sdp"
+			android:layout_height="@dimen/_24sdp"
+			android:paddingTop="@dimen/_2sdp"
+			android:paddingBottom="@dimen/_2sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.35"
+			app:srcCompat="@drawable/ic_radial_icon_04" />
+
+		<TextView
+			android:id="@+id/radial_text_08"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_regular"
+			android:text="Animacoes"
+			android:textAlignment="center"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_5sdp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/radial_image_08" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/radial_button_09"
+		android:layout_width="@dimen/_44sdp"
+		android:layout_height="@dimen/_47sdp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+		app:layout_constraintEnd_toEndOf="@+id/imageView7"
+		app:layout_constraintHorizontal_bias="0.22"
+		app:layout_constraintStart_toStartOf="@+id/imageView7"
+		app:layout_constraintTop_toTopOf="@+id/imageView7"
+		app:layout_constraintVertical_bias="0.09">
+
+		<ImageView
+			android:id="@+id/radial_image_09"
+			android:layout_width="@dimen/_24sdp"
+			android:layout_height="@dimen/_24sdp"
+			android:paddingTop="@dimen/_2sdp"
+			android:paddingBottom="@dimen/_2sdp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.35"
+			app:srcCompat="@drawable/ic_radial_icon_00" />
+
+		<TextView
+			android:id="@+id/radial_text_09"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/roboto_regular"
+			android:text="Registro RG"
+			android:textAlignment="center"
+			android:textColor="#ffffffff"
+			android:textSize="@dimen/_5sdp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/radial_image_09" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
